@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fontFamilies>
+    <fontFamily name="Yekan">
+        <normal><![CDATA[fonts/yekan/Yekan.ttf]]></normal>
+        <bold><![CDATA[fonts/yekan/Yekan.ttf]]></bold>
+        <italic><![CDATA[fonts/yekan/Yekan.ttf]]></italic>
+        <bolditalic><![CDATA[fonts/yekan/Yekan.ttf]]></bolditalic>
+        <pdfEncoding>Identity-H</pdfEncoding>
+        <pdfEmbedded><![CDATA[true]]></pdfEmbedded>
+        <exportFonts/>
+    </fontFamily>
+</fontFamilies>

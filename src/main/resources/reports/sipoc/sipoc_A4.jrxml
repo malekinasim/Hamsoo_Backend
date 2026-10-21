@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.18.1.final using JasperReports Library version 6.18.1-9d75d1969e774d4f179fb3be8401e98a0e6d1611  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="sipoc_A4" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="58ca9810-9207-4235-9bdc-0b0c7bb6ce96">
+    <property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+    <property name="com.jaspersoft.studio.data.defaultdataadapter" value="hamsoo"/>
+    <property name="com.jaspersoft.studio.property.dataset.dialog.DatasetDialog.sash.w1" value="557"/>
+    <property name="com.jaspersoft.studio.property.dataset.dialog.DatasetDialog.sash.w2" value="432"/>
+    <style name="yekan-8" hTextAlign="Center" hImageAlign="Center" vTextAlign="Middle" vImageAlign="Middle" fontName="Yekan" fontSize="8"/>
+    <style name="Table_TH" mode="Opaque" backcolor="#F0F8FF">
+        <box>
+            <pen lineWidth="0.5" lineColor="#000000"/>
+            <topPen lineWidth="0.5" lineColor="#000000"/>
+            <leftPen lineWidth="0.5" lineColor="#000000"/>
+            <bottomPen lineWidth="0.5" lineColor="#000000"/>
+            <rightPen lineWidth="0.5" lineColor="#000000"/>
+        </box>
+    </style>
+    <style name="Table_CH" mode="Opaque" backcolor="#FEF0F1">
+        <box>
+            <pen lineWidth="0.5" lineColor="#000000"/>
+            <topPen lineWidth="0.5" lineColor="#000000"/>
+            <leftPen lineWidth="0.5" lineColor="#000000"/>
+            <bottomPen lineWidth="0.5" lineColor="#000000"/>
+            <rightPen lineWidth="0.5" lineColor="#000000"/>
+        </box>
+    </style>
+    <style name="Table_TD" mode="Opaque" backcolor="#FFFFFF">
+        <box>
+            <pen lineWidth="0.5" lineColor="#000000"/>
+            <topPen lineWidth="0.5" lineColor="#000000"/>
+            <leftPen lineWidth="0.5" lineColor="#000000"/>
+            <bottomPen lineWidth="0.5" lineColor="#000000"/>
+            <rightPen lineWidth="0.5" lineColor="#000000"/>
+        </box>
+    </style>
+    <style name="Table 1_TH" mode="Opaque" backcolor="#F0F8FF">
+        <box>
+            <pen lineWidth="0.5" lineColor="#000000"/>
+            <topPen lineWidth="0.5" lineColor="#000000"/>
+            <leftPen lineWidth="0.5" lineColor="#000000"/>
+            <bottomPen lineWidth="0.5" lineColor="#000000"/>
+            <rightPen lineWidth="0.5" lineColor="#000000"/>
+        </box>
+    </style>
+    <style name="Table 1_CH" mode="Opaque" backcolor="#FFF4CF">
+        <box>
+            <pen lineWidth="0.5" lineColor="#000000"/>
+            <topPen lineWidth="0.5" lineColor="#000000"/>
+            <leftPen lineWidth="0.5" lineColor="#000000"/>
+            <bottomPen lineWidth="0.5" lineColor="#000000"/>
+            <rightPen lineWidth="0.5" lineColor="#000000"/>
+        </box>
+    </style>
+    <style name="Table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+        <box>
+            <pen lineWidth="0.5" lineColor="#000000"/>
+            <topPen lineWidth="0.5" lineColor="#000000"/>
+            <leftPen lineWidth="0.5" lineColor="#000000"/>
+            <bottomPen lineWidth="0.5" lineColor="#000000"/>
+            <rightPen lineWidth="0.5" lineColor="#000000"/>
+        </box>
+    </style>
+    <style name="Table 2_TH" mode="Opaque" backcolor="#F0F8FF">
+        <box>
+            <pen lineWidth="0.5" lineColor="#000000"/>
+            <topPen lineWidth="0.5" lineColor="#000000"/>
+            <leftPen lineWidth="0.5" lineColor="#000000"/>
+            <bottomPen lineWidth="0.5" lineColor="#000000"/>
+            <rightPen lineWidth="0.5" lineColor="#000000"/>
+        </box>
+    </style>
+    <style name="Table 2_CH" mode="Opaque" backcolor="#F3FBF6">
+        <box>
+            <pen lineWidth="0.5" lineColor="#000000"/>
+            <topPen lineWidth="0.5" lineColor="#000000"/>
+            <leftPen lineWidth="0.5" lineColor="#000000"/>
+            <bottomPen lineWidth="0.5" lineColor="#000000"/>
+            <rightPen lineWidth="0.5" lineColor="#000000"/>
+        </box>
+    </style>
+    <style name="Table 2_TD" mode="Opaque" backcolor="#FFFFFF">
+        <box>
+            <pen lineWidth="0.5" lineColor="#000000"/>
+            <topPen lineWidth="0.5" lineColor="#000000"/>
+            <leftPen lineWidth="0.5" lineColor="#000000"/>
+            <bottomPen lineWidth="0.5" lineColor="#000000"/>
+            <rightPen lineWidth="0.5" lineColor="#000000"/>
+        </box>
+    </style>
+    <style name="Table 3_TH" mode="Opaque" backcolor="#F0F8FF">
+        <box>
+            <pen lineWidth="0.5" lineColor="#000000"/>
+            <topPen lineWidth="0.5" lineColor="#000000"/>
+            <leftPen lineWidth="0.5" lineColor="#000000"/>
+            <bottomPen lineWidth="0.5" lineColor="#000000"/>
+            <rightPen lineWidth="0.5" lineColor="#000000"/>
+        </box>
+    </style>
+    <style name="Table 3_CH" mode="Opaque" backcolor="#FFF8EF">
+        <box>
+            <pen lineWidth="0.5" lineColor="#000000"/>
+            <topPen lineWidth="0.5" lineColor="#000000"/>
+            <leftPen lineWidth="0.5" lineColor="#000000"/>
+            <bottomPen lineWidth="0.5" lineColor="#000000"/>
+            <rightPen lineWidth="0.5" lineColor="#000000"/>
+        </box>
+    </style>
+    <style name="Table 3_TD" mode="Opaque" backcolor="#FFFFFF">
+        <box>
+            <pen lineWidth="0.5" lineColor="#000000"/>
+            <topPen lineWidth="0.5" lineColor="#000000"/>
+            <leftPen lineWidth="0.5" lineColor="#000000"/>
+            <bottomPen lineWidth="0.5" lineColor="#000000"/>
+            <rightPen lineWidth="0.5" lineColor="#000000"/>
+        </box>
+    </style>
+    <style name="Table 4_TH" mode="Opaque" backcolor="#F0F8FF">
+        <box>
+            <pen lineWidth="0.5" lineColor="#000000"/>
+            <topPen lineWidth="0.5" lineColor="#000000"/>
+            <leftPen lineWidth="0.5" lineColor="#000000"/>
+            <bottomPen lineWidth="0.5" lineColor="#000000"/>
+            <rightPen lineWidth="0.5" lineColor="#000000"/>
+        </box>
+    </style>
+    <style name="Table 4_CH" mode="Opaque" backcolor="#F9F2FC">
+        <box>
+            <pen lineWidth="0.5" lineColor="#000000"/>
+            <topPen lineWidth="0.5" lineColor="#000000"/>
+            <leftPen lineWidth="0.5" lineColor="#000000"/>
+            <bottomPen lineWidth="0.5" lineColor="#000000"/>
+            <rightPen lineWidth="0.5" lineColor="#000000"/>
+        </box>
+    </style>
+    <style name="Table 4_TD" mode="Opaque" backcolor="#FFFFFF">
+        <box>
+            <pen lineWidth="0.5" lineColor="#000000"/>
+            <topPen lineWidth="0.5" lineColor="#000000"/>
+            <leftPen lineWidth="0.5" lineColor="#000000"/>
+            <bottomPen lineWidth="0.5" lineColor="#000000"/>
+            <rightPen lineWidth="0.5" lineColor="#000000"/>
+        </box>
+    </style>
+    <subDataset name="C" uuid="e57d82ec-b75d-449c-b181-59776524c9f2">
+        <property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+        <property name="com.jaspersoft.studio.data.defaultdataadapter" value="hamsoo"/>
+        <parameter name="MODEL_VERSION_ID" class="java.lang.Long"/>
+        <queryString language="SQL">
+            <![CDATA[select distinct
+CASE
+    WHEN sct.code = 'IN_PRC' THEN insc_model."name"
+    WHEN sct.code = 'EX_PRC' THEN exsc."name"
+    WHEN sct.code = 'EVENT' THEN sc.event_sup_cust
+END AS sup_cust_name
+from bpm.bpm_identity_io_sup_custs sc
+inner join bpm.bpm_identity_io ii on ii.identity_io_id = sc.identity_io_id
+inner join bpm.bpm_model_versions mv on mv.model_version_id = ii.model_version_id
+inner join bpm.bpm_code_category iit on iit.code_category_id = ii."type"
+inner join bpm.bpm_code_category sct on sct.code_category_id = sc."type"
+left join bpm.bpm_model_versions insc on insc.model_version_id = sc.internal_sup_cust
+left join bpm.bpm_models insc_model on insc_model.model_id = insc.model_id
+left join bpm.bpm_external_process exsc on exsc.id = sc.external_sup_cust
+where mv.model_version_id= $P{MODEL_VERSION_ID} and iit.code = 'OUTPUT'
+and ii.status = 'ACTIVE' and sc.status = 'ACTIVE';]]>
+        </queryString>
+        <field name="sup_cust_name" class="java.lang.String">
+            <property name="com.jaspersoft.studio.field.name" value="sup_cust_name"/>
+            <property name="com.jaspersoft.studio.field.label" value="sup_cust_name"/>
+        </field>
+    </subDataset>
+    <subDataset name="O" uuid="8561b0c9-2861-4176-b498-53e7f3cde16c">
+        <property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+        <property name="com.jaspersoft.studio.data.defaultdataadapter" value="hamsoo"/>
+        <parameter name="MODEL_VERSION_ID" class="java.lang.Long"/>
+        <queryString language="SQL">
+            <![CDATA[select ii.identity_io_id , ic."name"
+from bpm.bpm_identity_io ii
+inner join bpm.bpm_model_versions mv on mv.model_version_id = ii.model_version_id
+inner join bpm.bpm_code_category iit on iit.code_category_id = ii."type"
+inner join bpm.bpm_io_catalogs ic on ic.io_id = ii.io_catalog_id
+where mv.model_version_id= $P{MODEL_VERSION_ID}  and iit.code = 'OUTPUT' and ii.status = 'ACTIVE' ;]]>
+        </queryString>
+        <field name="identity_io_id" class="java.lang.Integer">
+            <property name="com.jaspersoft.studio.field.name" value="identity_io_id"/>
+            <property name="com.jaspersoft.studio.field.label" value="identity_io_id"/>
+            <property name="com.jaspersoft.studio.field.tree.path" value="bpm_identity_io"/>
+        </field>
+        <field name="name" class="java.lang.String">
+            <property name="com.jaspersoft.studio.field.name" value="name"/>
+            <property name="com.jaspersoft.studio.field.label" value="name"/>
+            <property name="com.jaspersoft.studio.field.tree.path" value="bpm_io_catalogs"/>
+        </field>
+    </subDataset>
+    <subDataset name="P" uuid="7749bd08-f0bb-475d-80bf-a136a3163936">
+        <property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+        <property name="com.jaspersoft.studio.data.defaultdataadapter" value="hamsoo"/>
+        <parameter name="MODEL_VERSION_ID" class="java.lang.Long"/>
+        <queryString language="SQL">
+            <![CDATA[select mv.model_version_id, m.name
+from bpm.bpm_model_versions mv
+inner join bpm.bpm_models m on m.model_id = mv.model_id
+where  mv.model_version_id=$P{MODEL_VERSION_ID};]]>
+        </queryString>
+        <field name="name" class="java.lang.String">
+            <property name="com.jaspersoft.studio.field.name" value="name"/>
+            <property name="com.jaspersoft.studio.field.label" value="name"/>
+            <property name="com.jaspersoft.studio.field.tree.path" value="bpm_io_types"/>
+        </field>
+    </subDataset>
+    <subDataset name="I" uuid="271592b1-d76d-42ed-9918-29cbb6ab2528">
+        <property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+        <property name="com.jaspersoft.studio.data.defaultdataadapter" value="hamsoo"/>
+        <parameter name="MODEL_VERSION_ID" class="java.lang.Long"/>
+        <queryString language="SQL">
+            <![CDATA[select ii.identity_io_id , ic."name"
+from bpm.bpm_identity_io ii
+inner join bpm.bpm_model_versions mv on mv.model_version_id = ii.model_version_id
+inner join bpm.bpm_code_category iit on iit.code_category_id = ii."type"
+inner join bpm.bpm_io_catalogs ic on ic.io_id = ii.io_catalog_id
+where mv.model_version_id= $P{MODEL_VERSION_ID}  and iit.code = 'INPUT' and ii.status = 'ACTIVE' ;]]>
+        </queryString>
+        <field name="identity_io_id" class="java.lang.Integer">
+            <property name="com.jaspersoft.studio.field.name" value="identity_io_id"/>
+            <property name="com.jaspersoft.studio.field.label" value="identity_io_id"/>
+            <property name="com.jaspersoft.studio.field.tree.path" value="bpm_identity_io"/>
+        </field>
+        <field name="name" class="java.lang.String">
+            <property name="com.jaspersoft.studio.field.name" value="name"/>
+            <property name="com.jaspersoft.studio.field.label" value="name"/>
+            <property name="com.jaspersoft.studio.field.tree.path" value="bpm_io_catalogs"/>
+        </field>
+    </subDataset>
+    <subDataset name="S" uuid="1871edf3-83de-4ee4-983d-47a5eeada46a">
+        <property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+        <property name="com.jaspersoft.studio.data.defaultdataadapter" value="hamsoo"/>
+        <parameter name="MODEL_VERSION_ID" class="java.lang.Long"/>
+        <queryString language="SQL">
+            <![CDATA[select distinct
+CASE
+    WHEN sct.code = 'IN_PRC' THEN insc_model."name"
+    WHEN sct.code = 'EX_PRC' THEN exsc."name"
+    WHEN sct.code = 'EVENT' THEN sc.event_sup_cust
+END AS sup_cust_name
+from bpm.bpm_identity_io_sup_custs sc
+inner join bpm.bpm_identity_io ii on ii.identity_io_id = sc.identity_io_id
+inner join bpm.bpm_model_versions mv on mv.model_version_id = ii.model_version_id
+inner join bpm.bpm_code_category iit on iit.code_category_id = ii."type"
+inner join bpm.bpm_code_category sct on sct.code_category_id = sc."type"
+left join bpm.bpm_model_versions insc on insc.model_version_id = sc.internal_sup_cust
+left join bpm.bpm_models insc_model on insc_model.model_id = insc.model_id
+left join bpm.bpm_external_process exsc on exsc.id = sc.external_sup_cust
+where mv.model_version_id= $P{MODEL_VERSION_ID} and iit.code = 'INPUT'
+and ii.status = 'ACTIVE' and sc.status = 'ACTIVE';]]>
+        </queryString>
+        <field name="sup_cust_name" class="java.lang.String">
+            <property name="com.jaspersoft.studio.field.name" value="sup_cust_name"/>
+            <property name="com.jaspersoft.studio.field.label" value="sup_cust_name"/>
+        </field>
+    </subDataset>
+    <parameter name="MODEL_VERSION_ID" class="java.lang.Long"/>
+    <parameter name="CURRENT_DATE_PERSIAN" class="java.lang.String"/>
+    <queryString language="SQL">
+        <![CDATA[SELECT  m.name model_name, m.code model_code,
+model_type.fa_name model_type,model_status.fa_name model_status, o.name organ_name,
+organ_logo.byte_content organ_logo , model_image.byte_content model_image
+FROM bpm.bpm_model_versions mv
+inner join bpm.bpm_models m on mv.model_id = m.model_id
+inner join bpm.bpm_code_category model_type on m.model_type = model_type.code_category_id
+inner join bpm.bpm_code_category model_status on mv.status_id = model_status.code_category_id
+inner join bpm.bpm_organs o on m.organ_id = o.organ_id
+left join bpm.bpm_files organ_logo on o.organ_logo = organ_logo.file_id
+left join bpm.bpm_files model_image on mv.bpmn_img = model_image.file_id
+where mv.model_version_id=$P{MODEL_VERSION_ID};]]>
+    </queryString>
+    <field name="model_name" class="java.lang.String">
+        <property name="com.jaspersoft.studio.field.name" value="model_name"/>
+        <property name="com.jaspersoft.studio.field.label" value="model_name"/>
+        <property name="com.jaspersoft.studio.field.tree.path" value="bpm_models"/>
+    </field>
+    <field name="model_code" class="java.lang.String">
+        <property name="com.jaspersoft.studio.field.name" value="model_code"/>
+        <property name="com.jaspersoft.studio.field.label" value="model_code"/>
+        <property name="com.jaspersoft.studio.field.tree.path" value="bpm_models"/>
+    </field>
+    <field name="model_type" class="java.lang.String">
+        <property name="com.jaspersoft.studio.field.name" value="model_type"/>
+        <property name="com.jaspersoft.studio.field.label" value="model_type"/>
+        <property name="com.jaspersoft.studio.field.tree.path" value="bpm_code_category"/>
+    </field>
+    <field name="model_status" class="java.lang.String">
+        <property name="com.jaspersoft.studio.field.name" value="model_status"/>
+        <property name="com.jaspersoft.studio.field.label" value="model_status"/>
+        <property name="com.jaspersoft.studio.field.tree.path" value="bpm_code_category"/>
+    </field>
+    <field name="organ_name" class="java.lang.String">
+        <property name="com.jaspersoft.studio.field.name" value="organ_name"/>
+        <property name="com.jaspersoft.studio.field.label" value="organ_name"/>
+        <property name="com.jaspersoft.studio.field.tree.path" value="bpm_organs"/>
+    </field>
+    <field name="organ_logo" class="byte[]">
+        <property name="com.jaspersoft.studio.field.name" value="organ_logo"/>
+        <property name="com.jaspersoft.studio.field.label" value="organ_logo"/>
+        <property name="com.jaspersoft.studio.field.tree.path" value="bpm_files"/>
+    </field>
+    <field name="model_image" class="byte[]">
+        <property name="com.jaspersoft.studio.field.name" value="model_image"/>
+        <property name="com.jaspersoft.studio.field.label" value="model_image"/>
+        <property name="com.jaspersoft.studio.field.tree.path" value="bpm_files"/>
+    </field>
+    <background>
+        <band splitType="Stretch"/>
+    </background>
+    <title>
+        <band height="16" splitType="Stretch"/>
+    </title>
+    <pageHeader>
+        <band height="81" splitType="Stretch">
+            <rectangle radius="3">
+                <reportElement mode="Opaque" x="117" y="1" width="455" height="15" backcolor="#004ACF" uuid="0a6e5f10-5b80-4aa8-84fe-779d2b69487c">
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                </reportElement>
+                <graphicElement>
+                    <pen lineColor="#004ACF"/>
+                </graphicElement>
+            </rectangle>
+            <rectangle radius="3">
+                <reportElement mode="Opaque" x="58" y="1" width="15" height="15" backcolor="#3079FF" uuid="f84f6e59-7e9a-409e-b11b-669ac5380ae2">
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                </reportElement>
+                <graphicElement>
+                    <pen lineColor="#3079FF"/>
+                </graphicElement>
+            </rectangle>
+            <rectangle radius="3">
+                <reportElement mode="Opaque" x="77" y="1" width="15" height="15" backcolor="#1065FF" uuid="7f118543-dfdd-4541-8618-0f3f221126b7">
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                </reportElement>
+                <graphicElement>
+                    <pen lineColor="#1065FF"/>
+                </graphicElement>
+            </rectangle>
+            <rectangle radius="3">
+                <reportElement mode="Opaque" x="97" y="1" width="15" height="15" backcolor="#0055EF" uuid="6f0e8473-c444-4ebe-a560-82eec57b939a">
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                </reportElement>
+                <graphicElement>
+                    <pen lineColor="#0055EF"/>
+                </graphicElement>
+            </rectangle>
+            <image>
+                <reportElement x="-3" y="1" width="57" height="20" uuid="e26ef88b-e39e-4cb8-a74b-49bd6ffe217e">
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                </reportElement>
+                <imageExpression><![CDATA["reports/sipoc/hamsoo-logo.svg"]]></imageExpression>
+            </image>
+            <image>
+                <reportElement x="527" y="31" width="22" height="22" uuid="b35b14dd-644a-4853-bcaf-57f326f7c199">
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                </reportElement>
+                <imageExpression><![CDATA[$F{organ_logo}]]></imageExpression>
+            </image>
+            <textField>
+                <reportElement style="yekan-8" x="277" y="27" width="240" height="22" uuid="4e3c1715-3381-4829-b73d-7cc66a0323c7"/>
+                <textElement textAlignment="Right">
+                    <font fontName="Yekan"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$F{organ_name}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement style="yekan-8" x="-1" y="27" width="88" height="22" uuid="01db2f83-804e-4d6c-bf6d-b8d13e58b5f7"/>
+                <textElement textAlignment="Left">
+                    <font fontName="Yekan"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{CURRENT_DATE_PERSIAN}]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement style="yekan-8" x="197" y="55" width="160" height="25" uuid="89dd6eff-4144-4f63-a437-535d2d56d2a2"/>
+                <textElement>
+                    <font size="16"/>
+                </textElement>
+                <text><![CDATA[گزارش SIPOC فرآیند]]></text>
+            </staticText>
+        </band>
+    </pageHeader>
+    <columnHeader>
+        <band splitType="Stretch"/>
+    </columnHeader>
+    <detail>
+        <band height="154" splitType="Stretch">
+            <staticText>
+                <reportElement mode="Opaque" x="340" y="52" width="100" height="25" backcolor="#FFF4CF" uuid="62f7a217-bdd6-4827-be2b-7d7265467ae9"/>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Yekan" size="10" isBold="true"/>
+                </textElement>
+                <text><![CDATA[O]]></text>
+            </staticText>
+            <staticText>
+                <reportElement mode="Opaque" x="115" y="52" width="100" height="25" backcolor="#FFF8EF" uuid="9880d868-90ad-4a84-9e81-319f57ea79f0"/>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Yekan" size="10" isBold="true"/>
+                </textElement>
+                <text><![CDATA[I]]></text>
+            </staticText>
+            <staticText>
+                <reportElement mode="Opaque" x="227" y="53" width="100" height="24" backcolor="#F3FBF6" uuid="ece7844a-81d2-4763-a1b1-78cc09010c96"/>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Yekan" size="10" isBold="true"/>
+                </textElement>
+                <text><![CDATA[P]]></text>
+            </staticText>
+            <staticText>
+                <reportElement mode="Opaque" x="5" y="52" width="100" height="25" backcolor="#F9F2FC" uuid="d6406e0b-500a-4c56-a5e2-798171cda47b"/>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Yekan" size="10" isBold="true"/>
+                </textElement>
+                <text><![CDATA[S]]></text>
+            </staticText>
+            <staticText>
+                <reportElement mode="Opaque" x="455" y="53" width="100" height="24" backcolor="#FEF0F1" uuid="bab1242d-92c0-47ca-ad1f-8fbb54a8eb31">
+                    <property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                </reportElement>
+                <box bottomPadding="0"/>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Yekan" size="10" isBold="true" pdfEncoding=""/>
+                </textElement>
+                <text><![CDATA[C]]></text>
+            </staticText>
+            <componentElement>
+                <reportElement x="455" y="85" width="100" height="60" uuid="6d78ecca-b939-477f-9f0f-d29ce51a2815">
+                    <property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+                    <property name="com.jaspersoft.studio.table.style.table_header" value="Table_TH"/>
+                    <property name="com.jaspersoft.studio.table.style.column_header" value="Table_CH"/>
+                    <property name="com.jaspersoft.studio.table.style.detail" value="Table_TD"/>
+                    <property name="com.jaspersoft.studio.components.autoresize.proportional" value="true"/>
+                </reportElement>
+                <jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" whenNoDataType="AllSectionsNoDetail">
+                    <datasetRun subDataset="C" uuid="4d3e7bc7-02b6-4141-a2db-b5ab8a65d0c0">
+                        <datasetParameter name="MODEL_VERSION_ID">
+                            <datasetParameterExpression><![CDATA[$P{MODEL_VERSION_ID}]]></datasetParameterExpression>
+                        </datasetParameter>
+                        <connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+                    </datasetRun>
+                    <jr:column width="100" uuid="f0edc1d2-7e03-46dc-8101-094bf105862b">
+                        <jr:columnHeader style="Table_CH" height="30">
+                            <staticText>
+                                <reportElement x="0" y="0" width="100" height="30" uuid="8d92e126-97e9-4366-bf6f-611455c043ba"/>
+                                <textElement textAlignment="Center" verticalAlignment="Middle">
+                                    <font fontName="Yekan" size="8"/>
+                                </textElement>
+                                <text><![CDATA[مشتریان]]></text>
+                            </staticText>
+                        </jr:columnHeader>
+                        <jr:detailCell style="Table_TD" height="30">
+                            <textField textAdjust="StretchHeight">
+                                <reportElement x="0" y="0" width="100" height="30" uuid="04f6cc8e-80f0-4fcd-85d2-4fc4df99cb24"/>
+                                <textElement textAlignment="Center" verticalAlignment="Middle">
+                                    <font fontName="Yekan" size="8"/>
+                                </textElement>
+                                <textFieldExpression><![CDATA[$F{sup_cust_name}]]></textFieldExpression>
+                            </textField>
+                        </jr:detailCell>
+                    </jr:column>
+                </jr:table>
+            </componentElement>
+            <componentElement>
+                <reportElement x="340" y="85" width="100" height="60" uuid="1d37024a-3fa0-4dd4-9cc7-3056b8bc512c">
+                    <property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+                    <property name="com.jaspersoft.studio.table.style.table_header" value="Table 1_TH"/>
+                    <property name="com.jaspersoft.studio.table.style.column_header" value="Table 1_CH"/>
+                    <property name="com.jaspersoft.studio.table.style.detail" value="Table 1_TD"/>
+                    <property name="com.jaspersoft.studio.components.autoresize.proportional" value="true"/>
+                </reportElement>
+                <jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" whenNoDataType="AllSectionsNoDetail">
+                    <datasetRun subDataset="O" uuid="265dbdef-523e-4270-b3a8-aeda6e996d80">
+                        <datasetParameter name="MODEL_VERSION_ID">
+                            <datasetParameterExpression><![CDATA[$P{MODEL_VERSION_ID}]]></datasetParameterExpression>
+                        </datasetParameter>
+                        <connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+                    </datasetRun>
+                    <jr:column width="100" uuid="625ee4d0-0935-42dd-b31c-5d71ad5039e3">
+                        <jr:columnHeader style="Table 1_CH" height="30">
+                            <staticText>
+                                <reportElement x="0" y="0" width="100" height="30" uuid="1d777a56-efcd-40c0-b49a-9b78531b49fb"/>
+                                <textElement textAlignment="Center" verticalAlignment="Middle">
+                                    <font fontName="Yekan" size="8"/>
+                                </textElement>
+                                <text><![CDATA[خروجی ها]]></text>
+                            </staticText>
+                        </jr:columnHeader>
+                        <jr:detailCell style="Table 1_TD" height="30">
+                            <textField textAdjust="StretchHeight">
+                                <reportElement style="yekan-8" x="0" y="0" width="100" height="30" uuid="e1499128-80d2-4604-97ac-1a8d69562406">
+                                    <property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+                                </reportElement>
+                                <textElement textAlignment="Center" verticalAlignment="Middle">
+                                    <font fontName="Yekan" size="8"/>
+                                </textElement>
+                                <textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
+                            </textField>
+                        </jr:detailCell>
+                    </jr:column>
+                </jr:table>
+            </componentElement>
+            <textField textAdjust="StretchHeight">
+                <reportElement mode="Opaque" x="361" y="7" width="195" height="33" backcolor="#EFF5FF" uuid="ffbb6e55-9e4a-498f-b916-d2152a80245f">
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                </reportElement>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Yekan"/>
+                </textElement>
+                <textFieldExpression><![CDATA["نام فرآیند: " + $F{model_name}]]></textFieldExpression>
+            </textField>
+            <textField textAdjust="StretchHeight">
+                <reportElement mode="Opaque" x="241" y="7" width="110" height="33" backcolor="#EFF5FF" uuid="5a01d369-f298-4837-aa13-f712e8ee2bb9">
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                </reportElement>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Yekan"/>
+                </textElement>
+                <textFieldExpression><![CDATA["کد فرآیند: " + $F{model_code}]]></textFieldExpression>
+            </textField>
+            <textField textAdjust="StretchHeight">
+                <reportElement mode="Opaque" x="1" y="7" width="110" height="33" backcolor="#EFF5FF" uuid="8d806208-7e2e-43ed-94b2-c2bf5aa56025">
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                </reportElement>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Yekan"/>
+                </textElement>
+                <textFieldExpression><![CDATA["وضعیت فرآیند: " + $F{model_status}]]></textFieldExpression>
+            </textField>
+            <textField textAdjust="StretchHeight">
+                <reportElement mode="Opaque" x="121" y="7" width="110" height="33" backcolor="#EFF5FF" uuid="83ba46b7-252f-42c5-aed9-647e86e5df19">
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                </reportElement>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Yekan"/>
+                </textElement>
+                <textFieldExpression><![CDATA["نوع فرآیند: " + $F{model_type}]]></textFieldExpression>
+            </textField>
+            <componentElement>
+                <reportElement x="227" y="85" width="100" height="60" uuid="4d3d9e7f-3277-4bb5-bfba-13babebae7a0">
+                    <property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+                    <property name="com.jaspersoft.studio.table.style.table_header" value="Table 2_TH"/>
+                    <property name="com.jaspersoft.studio.table.style.column_header" value="Table 2_CH"/>
+                    <property name="com.jaspersoft.studio.table.style.detail" value="Table 2_TD"/>
+                    <property name="com.jaspersoft.studio.components.autoresize.proportional" value="true"/>
+                </reportElement>
+                <jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" whenNoDataType="AllSectionsNoDetail">
+                    <datasetRun subDataset="P" uuid="69dfe56f-065e-4127-be65-fb0f310a2a8b">
+                        <datasetParameter name="MODEL_VERSION_ID">
+                            <datasetParameterExpression><![CDATA[$P{MODEL_VERSION_ID}]]></datasetParameterExpression>
+                        </datasetParameter>
+                        <connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+                    </datasetRun>
+                    <jr:column width="100" uuid="cdf8d805-09bd-410f-9481-d4990b457e21">
+                        <jr:columnHeader style="Table 2_CH" height="30">
+                            <staticText>
+                                <reportElement x="0" y="0" width="100" height="30" uuid="8f22bc29-772b-4506-8543-4a1545220922"/>
+                                <textElement textAlignment="Center" verticalAlignment="Middle">
+                                    <font fontName="Yekan" size="8"/>
+                                </textElement>
+                                <text><![CDATA[فرآیند]]></text>
+                            </staticText>
+                        </jr:columnHeader>
+                        <jr:detailCell style="Table 2_TD" height="30">
+                            <textField textAdjust="StretchHeight">
+                                <reportElement x="0" y="0" width="100" height="30" uuid="ca568f23-cf41-4cb2-b3ef-9b5be07d4604"/>
+                                <textElement textAlignment="Center" verticalAlignment="Middle">
+                                    <font fontName="Yekan" size="8"/>
+                                </textElement>
+                                <textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
+                            </textField>
+                        </jr:detailCell>
+                    </jr:column>
+                </jr:table>
+            </componentElement>
+            <componentElement>
+                <reportElement x="115" y="85" width="100" height="60" uuid="6c0898c2-48ee-4fa8-bfce-ef5726f9149e">
+                    <property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+                    <property name="com.jaspersoft.studio.table.style.table_header" value="Table 3_TH"/>
+                    <property name="com.jaspersoft.studio.table.style.column_header" value="Table 3_CH"/>
+                    <property name="com.jaspersoft.studio.table.style.detail" value="Table 3_TD"/>
+                    <property name="com.jaspersoft.studio.components.autoresize.proportional" value="true"/>
+                </reportElement>
+                <jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" whenNoDataType="AllSectionsNoDetail">
+                    <datasetRun subDataset="I" uuid="7d902a0c-5ef5-4523-b867-2f9ae4276524">
+                        <datasetParameter name="MODEL_VERSION_ID">
+                            <datasetParameterExpression><![CDATA[$P{MODEL_VERSION_ID}]]></datasetParameterExpression>
+                        </datasetParameter>
+                        <connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+                    </datasetRun>
+                    <jr:column width="100" uuid="3da34a62-880a-4c6f-a5e6-ebd20c51d5b9">
+                        <jr:columnHeader style="Table 3_CH" height="30">
+                            <staticText>
+                                <reportElement x="0" y="0" width="100" height="30" uuid="6a5a6c51-d1e4-40dc-b95c-9abd49f20f59"/>
+                                <textElement textAlignment="Center" verticalAlignment="Middle">
+                                    <font fontName="Yekan" size="8"/>
+                                </textElement>
+                                <text><![CDATA[ورودی ها]]></text>
+                            </staticText>
+                        </jr:columnHeader>
+                        <jr:detailCell style="Table 3_TD" height="30">
+                            <textField textAdjust="StretchHeight">
+                                <reportElement x="0" y="0" width="100" height="30" uuid="68979873-7840-4eef-bbf5-49a3381d4633"/>
+                                <textElement textAlignment="Center" verticalAlignment="Middle">
+                                    <font fontName="Yekan" size="8"/>
+                                </textElement>
+                                <textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
+                            </textField>
+                        </jr:detailCell>
+                    </jr:column>
+                </jr:table>
+            </componentElement>
+            <componentElement>
+                <reportElement x="5" y="85" width="100" height="60" uuid="ff3f18ee-1ebc-413b-8a93-922942f631e0">
+                    <property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+                    <property name="com.jaspersoft.studio.table.style.table_header" value="Table 4_TH"/>
+                    <property name="com.jaspersoft.studio.table.style.column_header" value="Table 4_CH"/>
+                    <property name="com.jaspersoft.studio.table.style.detail" value="Table 4_TD"/>
+                    <property name="com.jaspersoft.studio.components.autoresize.proportional" value="true"/>
+                </reportElement>
+                <jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" whenNoDataType="AllSectionsNoDetail">
+                    <datasetRun subDataset="S" uuid="56780c50-6cb1-483f-a66c-219fac8ab0be">
+                        <datasetParameter name="MODEL_VERSION_ID">
+                            <datasetParameterExpression><![CDATA[$P{MODEL_VERSION_ID}]]></datasetParameterExpression>
+                        </datasetParameter>
+                        <connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+                    </datasetRun>
+                    <jr:column width="100" uuid="fdc30010-5c83-4c2b-8fb8-33c725cc06bf">
+                        <jr:columnHeader style="Table 4_CH" height="30">
+                            <staticText>
+                                <reportElement x="0" y="0" width="100" height="30" uuid="6b627e31-e12d-41eb-8897-ef87adf3c4d4"/>
+                                <textElement textAlignment="Center" verticalAlignment="Middle">
+                                    <font fontName="Yekan" size="8"/>
+                                </textElement>
+                                <text><![CDATA[تامیین کنندگان]]></text>
+                            </staticText>
+                        </jr:columnHeader>
+                        <jr:detailCell style="Table 4_TD" height="30">
+                            <textField textAdjust="StretchHeight">
+                                <reportElement x="0" y="0" width="100" height="30" uuid="d5e0e1fa-d8c0-45d6-ab9c-7eea4f2ea94b"/>
+                                <textElement textAlignment="Center" verticalAlignment="Middle">
+                                    <font fontName="Yekan" size="8"/>
+                                </textElement>
+                                <textFieldExpression><![CDATA[$F{sup_cust_name}]]></textFieldExpression>
+                            </textField>
+                        </jr:detailCell>
+                    </jr:column>
+                </jr:table>
+            </componentElement>
+        </band>
+        <band height="245">
+            <staticText>
+                <reportElement mode="Opaque" x="3" y="10" width="555" height="24" backcolor="#FFF4CF" uuid="ae8cbc81-a7d8-46b2-80b4-75fa3a3ccc56">
+                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                </reportElement>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font fontName="Yekan" size="13" isBold="false"/>
+                </textElement>
+                <text><![CDATA[نمودار فرآیند]]></text>
+            </staticText>
+            <image hAlign="Center" vAlign="Middle">
+                <reportElement x="3" y="40" width="555" height="194" uuid="3ca6866b-34a8-49e6-aa7d-fc5f597ef256"/>
+                <box>
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <imageExpression><![CDATA[$F{model_image}]]></imageExpression>
+            </image>
+        </band>
+    </detail>
+    <columnFooter>
+        <band height="6" splitType="Stretch"/>
+    </columnFooter>
+    <pageFooter>
+        <band height="21" splitType="Stretch">
+            <property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+            <rectangle radius="3">
+                <reportElement mode="Opaque" x="-20" y="3" width="516" height="15" backcolor="#004ACF" uuid="dedf72ca-9e62-48f4-ac1f-bb566b58331a">
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                </reportElement>
+                <graphicElement>
+                    <pen lineColor="#004ACF"/>
+                </graphicElement>
+            </rectangle>
+            <rectangle radius="3">
+                <reportElement mode="Opaque" x="540" y="3" width="15" height="15" backcolor="#3079FF" uuid="91828014-6639-4f1d-8012-40384cf746a2">
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                </reportElement>
+                <graphicElement>
+                    <pen lineColor="#3079FF"/>
+                </graphicElement>
+            </rectangle>
+            <rectangle radius="3">
+                <reportElement mode="Opaque" x="520" y="3" width="15" height="15" backcolor="#1065FF" uuid="6ccd5807-09f2-4ceb-87ee-8a5000265034">
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                </reportElement>
+                <graphicElement>
+                    <pen lineColor="#1065FF"/>
+                </graphicElement>
+            </rectangle>
+            <rectangle radius="3">
+                <reportElement mode="Opaque" x="500" y="3" width="15" height="15" backcolor="#0055EF" uuid="bc3d89c4-8d93-46de-89a5-e33ccc4f9a51">
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                </reportElement>
+                <graphicElement>
+                    <pen lineColor="#0055EF"/>
+                </graphicElement>
+            </rectangle>
+        </band>
+    </pageFooter>
+    <summary>
+        <band height="6" splitType="Stretch"/>
+    </summary>
+</jasperReport>

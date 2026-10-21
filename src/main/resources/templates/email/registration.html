@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title th:remove="all">تایید ثبت نام همسو</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style type="text/css">
+        @font-face {
+            font-family: 'Yekan';
+            font-weight: 400;
+            font-style: normal;
+            src:
+             url('../../fonts/yekan/Yekan.vfc') format('vfc'),
+            url('../../fonts/yekan/Yekan.eot') format('embedded-opentype'),
+            url('../../fonts/yekan/Yekan.woff') format('woff'),
+            url('../../fonts/yekan/Yekan.ttf') format('truetype');
+        }
+
+    </style>
+</head>
+<body style="font-family: Yekan;direction: rtl;margin: 0;color: rgba(0, 0, 0, 0.87);font-weight: 400;font-size: 1rem;
+            line-height: 1.5;background-color: #fff;">
+
+<div style="width: 600px;align-items: center;margin: 0 auto;padding-top: 100px">
+
+
+
+    <table style="width: 575px;
+            direction: rtl;
+            background-color: #F1F6FF;
+            padding: 20px;
+            border: 1px solid #000000;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 12px;">
+        <tbody>
+        <tr>
+            <td>
+                <div style="text-align: center">
+                    <img src="images/hamsoo-logo-byname.png" data-th-src="|cid:hamsooLogo|"/>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>
+
+                    <h2 style="text-align: center">
+                        <b th:text="${name}">name</b>
+                        عزیز
+                        به همسو خوش آمدید
+
+
+
+                    </h2>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p style="direction:rtl; text-align: center;color: #3C4350;font-size: 14px;">
+                    حساب کاربری برای شما در سامانه همسو ایجاد شده است.
+                </p>
+                <p style="direction:rtl; text-align: center;color: #3C4350;font-size: 14px;">
+                    لطفا برای تایید آدرس ایمیل شما در سامانه همسو بر روی لینک زیر کلیک کنید.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>
+                    <a style="border: solid 1px #004ACF;background-color: #004ACF;text-decoration: none;color: #fff;
+                    font-weight: bold;display: block;width: 256px;margin: 0 auto;text-align: center;padding: 10px 0;border-radius: 8px;"
+                       href="#" th:href="@{${url}}">تایید ایمیل </a>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>
+                    <img src="images/email_confirm.png" data-th-src="|cid:confirmEmail|"/>
+                </div>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+</div>
+
+
+</body>
+</html>
